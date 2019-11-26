@@ -1,4 +1,4 @@
-**1. Copy and paste your Logs for 20 epochs:** 
+### Copy and paste your Logs for 20 epochs:
 
 
 
@@ -136,13 +136,13 @@ Epoch 20/20
 Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 60000/60000 [==============================] - 5s 87us/step - loss: 0.0094 - acc: 0.9968 - val_loss: 0.0214 - val_acc: 0.9937
 ```
-**2. Copy and paste the result of your model.evaluate (on test data):** 
+### Copy and paste the result of your model.evaluate (on test data): 
 
 ```
 [0.021371671529706874, 0.9937]
 ```
 
-**3. Strategy you have taken to achieve the said results:** 
+### Strategy you have taken to achieve the said results:
 
 1. Started with an architecture where we expand in number of kernels using 3X3 kernels and then contract the kernels using a 1X1 layer.
 2. Now given that MNIST is fairly simple data, I have started with less number of kernel(10) to start instead of traditional 32 kernels.

@@ -3,7 +3,7 @@
 Accuracy on test data is: 82.36
 ```
 
-### 2. Model Validation Definition:
+### 2. New Model Definition:
 ```
 model2 = Sequential()
 #receptive field , number of channels , output size
@@ -52,6 +52,7 @@ model2.summary()
 ```
 
 ### 3. 50 epochs log: 
+max validation accuracy: 82.78%
 
 ```
 
